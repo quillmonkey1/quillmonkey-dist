@@ -31,10 +31,10 @@ The AI assistant has access to these tools:
 | **writeNew**        | Create a new userscript that executes immediately and auto-runs on matching pages |
 | **update**          | Modify an existing script's code, name, scope, or enabled status                  |
 | **append**          | Add code to the end of an existing script without re-running previous code        |
+| **reExecute**       | Re-run an existing script on the current page                                     |
 | **listScripts**     | List saved scripts with optional filtering by name, host, or status               |
 | **grabScreenshot**  | Capture a screenshot of the current tab (requires approval)                       |
 
 ## Requirements
 
 - Chrome version 135 or later
-- API key for Anthropic or OpenAI (configure in extension settings)
